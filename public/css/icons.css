@@ -1,0 +1,56 @@
+
+i {
+    font-size: 40px; 
+    color: #888; 
+    transition: color 0.3s ease, text-shadow 0.3s ease; 
+  }
+
+
+  i:hover {
+    color: #00ffcc; 
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00ffcc,
+      0 0 20px #00ffcc; 
+  }
+
+
+  #csharp:hover {
+    color: #5e8cff; 
+  }
+
+  #js:hover {
+    color: #f7df1e; 
+  }
+
+  #github:hover {
+    color: #181717; 
+    text-shadow: 0 0 5px #852384, 0 0 10px #e300f8, 0 0 15px #6f065e,
+      0 0 20px #181717; 
+  }
+
+  #html:hover {
+    color: #e34c26; 
+  }
+
+  #css:hover {
+    color: #264de4; 
+  }
+
+  #python:hover {
+    color: #306998; 
+  }
+
+  #mysql:hover {
+    color: #00758f; 
+  }
+
+  #php:hover {
+    color: #4f5b93; 
+  }
+
+  #globe:hover {
+    color: #4cccf3; 
+    text-shadow:0 0 5px #eee5ee, 0 0 10px #adccef, 0 0 15px #89e2ee,
+    0 0 20px #181717;
+  }
+  
+  

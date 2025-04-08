@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+
+    <link rel="stylesheet" href="/css/stylee.css" />
+    <script src="/app/script.js"></script>
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <%- include('partials/header') %>
+
+    <section class="home">
+      <div class="home-img">
+        <img src="/img/foto.JPEG" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, It's <span>Alejandro</span></h1>
+        <div id="about">
+          <h3 class="typing-text">I'm a <span></span></h3>
+          <p>
+            Hi! My name is Alejandro and I am a collage student. I love
+            technology, code and play games. I am 18 years old and I continue to
+            learn more about this incredible world every day.
+          </p>
+        </div>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/ismael-liquez-9b7777297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Isma1303"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://x.com/g3ma_gt?s=21"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/ialiquez?igsh=MWNhOW1hd3J5cWpsdA%3D%3D&utm_source=qr"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://drive.google.com/file/d/1oIvtw5MUSPri4IIYZ8uSRPvbQGq6iQ0K/view?usp=sharing"
+            ><i class="ph ph-read-cv-logo"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <%- include('partials/skills') %> <%- include('partials/education') %>
+    <%-include('partials/projects') %> <%- include('partials/contact') %>
+  </body>
+</html>

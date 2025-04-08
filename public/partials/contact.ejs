@@ -1,0 +1,41 @@
+<section class="contact" id="contact">
+  <div class="contact-container">
+    <h3>Contact</h3>
+
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>liquezismael@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+502 4680 0417</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Guatemala City, Guatemala</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="/contact" method="POST" class="contact-form">
+        <div class="input-group">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
