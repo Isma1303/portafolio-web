@@ -1,29 +1,17 @@
-function redirectig() {
-    window.location.href = 'https://www.google.com';
-}
 
-document.getElementById('linkedin').addEventListener('click', function() {
-    window.location.href = 'https://www.linkedin.com';
-});
+// document.addEventListener('DOMContentLoaded', () => {
+//     const typingText = document.querySelector('.typing-text span');
+//     const words = ['Student', 'Developer', 'Friendly', 'Gamer', 'Tech lover'];
+//     let wordIndex = 0;
 
-document.getElementById('github').addEventListener('click', function() {
-    window.location.href = 'https://www.github.com';
-});
+//     function changeWord() {
+//         typingText.textContent = words[wordIndex];
+//         wordIndex = (wordIndex + 1) % words.length; // Ciclo infinito
+//     }
 
-document.getElementById('twitter').addEventListener('click', function() {
-    window.location.href = 'https://www.twitter.com';
-});
-
-document.getElementById("instagram").addEventListener('click', functionig);
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Typing animation
-    const typed = new Typed('.typing-text span', {
-        strings: ['Developer', 'Student', 'Gamer'],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+//     // Cambiar palabra cada 2 segundos
+//     setInterval(changeWord, 10000);
+// });
 
     // Handle contact form submission
     const contactForm = document.querySelector('.contact-form');
@@ -108,4 +96,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     `;
     document.head.appendChild(style);
-});
+
+// hamburguer menu 

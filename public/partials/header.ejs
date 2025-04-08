@@ -1,11 +1,38 @@
 <header>
   <a href="#" class="logo">Alejandro</a>
 
-  <nav>
-    <a href="#home-content" class="active"> Home</a>
+  <!-- Botón del menú de hamburguesa -->
+  <div class="menu-toggle" id="mobile-menu">
+    <i class="ph ph-list"></i>
+  </div>
+
+  <!-- Navegación -->
+  <nav class="nav-links" id="nav-links">
+    <a href="#home-content" class="active">Home</a>
     <a href="#skills">Skills</a>
     <a href="#education">Education</a>
-    <a href="#about">About me </a>
+    <a href="#about">About me</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.getElementById("mobile-menu");
+    const menu = document.getElementById("nav-links");
+
+    if (menuButton && menu) {
+      console.log("Elementos encontrados"); // Verifica en consola
+
+      menuButton.addEventListener("click", function () {
+        console.log("Botón clickeado"); // Verifica en consola
+        menu.classList.toggle("active");
+        this.classList.toggle("active");
+      });
+    } else {
+      console.error("No se encontraron elementos:", {
+        menuButton,
+        menu,
+      });
+    }
+  });
+</script>
