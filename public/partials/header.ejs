@@ -1,18 +1,17 @@
 <header>
   <a href="#" class="logo">Alejandro</a>
 
-  <!-- Botón del menú de hamburguesa -->
   <div class="menu-toggle" id="mobile-menu">
     <i class="ph ph-list"></i>
   </div>
 
-  <!-- Navegación -->
   <nav class="nav-links" id="nav-links">
     <a href="#home-content" class="active">Home</a>
     <a href="#skills">Skills</a>
     <a href="#education">Education</a>
     <a href="#about">About me</a>
     <a href="#contact">Contact</a>
+    <a href="#projects">Projects</a>
   </nav>
 </header>
 <script>
@@ -21,10 +20,10 @@
     const menu = document.getElementById("nav-links");
 
     if (menuButton && menu) {
-      console.log("Elementos encontrados"); // Verifica en consola
+      console.log("Elementos encontrados");
 
       menuButton.addEventListener("click", function () {
-        console.log("Botón clickeado"); // Verifica en consola
+        console.log("Botón clickeado");
         menu.classList.toggle("active");
         this.classList.toggle("active");
       });
